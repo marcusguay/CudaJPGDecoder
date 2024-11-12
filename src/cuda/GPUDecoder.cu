@@ -141,11 +141,6 @@ __global__ void YCbCrToRGB(float *d_matrix, RGB *pixels, int imageWidth, int ima
     B = static_cast<uint8_t>(roundf(fminf(fmaxf(B, 0.0f), 255.0f)));
 
     /* Save the pixel to the right index of the array*/
-    
-    if(blockX == 0){
-       printf("%d %d PixelIDX %d \n", blockX, blockY, pixelIndex);
-    }
-
     pixels[pixelIndex].r = R;
     pixels[pixelIndex].g = G;
     pixels[pixelIndex].b = B;

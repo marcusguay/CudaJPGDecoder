@@ -6,7 +6,7 @@ At the time of writing this the decoder only supports images with
 three channels, 4:4:4 subsampling and that was non progressively encoded
 
 I plan on adding compatibility to these types of JPGs later
-and maybe an encoder eventually
+and maybe even an encoder eventually
 
 ## Requirements
 - NVIDIA GPU with compute capability 3.0 or higher
