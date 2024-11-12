@@ -8,6 +8,22 @@ three channels, 4:4:4 subsampling and that was non progressively encoded
 I plan on adding compatibility to these types of JPGs later
 and maybe even an encoder eventually
 
+### The following resources were very helpful:
+
+https://www.w3.org/Graphics/JPEG/itu-t81.pdf
+
+https://www.youtube.com/watch?v=Q2aEzeMDHMA&t=19s&ab_channel=Computerphile
+
+https://en.wikipedia.org/wiki/JPEG
+
+https://www.ccoderun.ca/programming/2017-01-31_jpeg/
+
+https://www.opennet.ru/docs/formats/jpeg.txt
+
+https://www.ijg.org/files/Wallace.JPEG.pdf
+
+https://watkins.cs.queensu.ca/~jstewart/457/notes/30/30-jpeg-encoding.html
+
 ## Requirements
 - NVIDIA GPU with compute capability 3.0 or higher
 - Docker (for using the Docker setup)
