@@ -1,0 +1,5 @@
+build/
+docker-compose.yml
+.vscode/
+_deps/
+CMakeFiles/
