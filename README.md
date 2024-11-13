@@ -1,12 +1,12 @@
 # About
 
-Note: This project was mainly for learning purposes and so I probably would not put this in production project (Atleast not yet) 
+Note: This project was mainly for learning purposes and so I probably would not put this in production project (atleast not in its current state) 
 
 At the time of writing this the decoder only supports images with
 three channels, 4:4:4 subsampling and that was non progressively encoded
 
 I plan on adding compatibility to these types of JPGs later
-and maybe even an encoder eventually
+and maybe an an encoder eventually
 
 ### The following resources were very helpful:
 
